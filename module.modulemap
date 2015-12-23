@@ -1,0 +1,10 @@
+module libcapn [system] {
+    header "/usr/include/capn/apn.h"
+    header "/usr/include/capn/apn_array.h"
+    header "/usr/include/capn/apn_binary_message.h"
+    header "/usr/include/capn/apn_payload.h"
+    header "/usr/include/capn/apn_platform.h"
+    header "/usr/include/capn/apn_version.h"
+    link "capn"
+    export *
+}
